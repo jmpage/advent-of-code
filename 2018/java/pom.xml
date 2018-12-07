@@ -62,6 +62,9 @@
                   <version>6.2</version>
               </dependency>
           </dependencies>
+          <configuration>
+              <trimStackTrace>false</trimStackTrace>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
